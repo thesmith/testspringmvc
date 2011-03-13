@@ -1,4 +1,4 @@
-package com.metabroadcast;
+package thesmith.testspringmvc;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

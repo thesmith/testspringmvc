@@ -111,11 +111,6 @@
             <version>${common.version}</version>
         </dependency>
         <dependency>
-          <groupId>org.twitter4j</groupId>
-          <artifactId>twitter4j-core</artifactId>
-          <version>2.1.6</version>
-        </dependency>
-        <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
             <version>1.2.15</version>
@@ -135,31 +130,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <dependency>
-            <groupId>org.atlasapi</groupId>
-            <artifactId>atlas-client</artifactId>
-            <version>${atlas.version}</version>
-        </dependency>
     </dependencies>
-
-    <scm>
-        <connection>scm:git:git://github.com/mbst/testspringmvc.git</connection>
-        <developerConnection>scm:git:git://github.com/mbst/testspringmvc.git</developerConnection>
-    </scm>
-
-    <distributionManagement>
-        <repository>
-            <id>metabroadcast-mvn</id>
-            <name>Public Releases MetaBroadcast Repo</name>
-            <url>dav:http://mvn.metabroadcast.com:80/libs-releases-local</url>
-        </repository>
-        <snapshotRepository>
-            <id>metabroadcast-mvn</id>
-            <name>Public Snapshots MetaBroadcast Repo</name>
-            <url>dav:http://mvn.metabroadcast.com:80/libs-snapshots-local</url>
-            <uniqueVersion>false</uniqueVersion>
-        </snapshotRepository>
-    </distributionManagement>
 
     <repositories>
         <repository>
@@ -171,7 +142,6 @@
     </repositories>
 
     <properties>
-        <common.version>${project.version}</common.version>
-        <atlas.version>0.0.1-SNAPSHOT</atlas.version>
+        <common.version>1.0-SNAPSHOT</common.version>
     </properties>
 </project>
